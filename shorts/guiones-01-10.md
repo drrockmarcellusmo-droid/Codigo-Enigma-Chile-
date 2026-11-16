@@ -6,33 +6,38 @@ Formato: vertical 9:16, 45–60 segundos, imágenes fijas con zoom lento, dos vo
 
 ## 0. Antes de empezar: ficha de personajes y estilo
 
-Como todavía no tengo la descripción de sus personajes, los guiones usan dos roles:
+Los dos personajes son **enmascarados misteriosos**. Cada uno tiene un rol en la narración:
 
-- **A (el curioso):** pregunta, se sorprende, hace los chistes.
-- **B (el que sabe):** explica el proceso.
+- **A (el curioso):** pregunta, se sorprende y hace los chistes.
+- **B (el que sabe):** explica el proceso, como quien revela un secreto.
 
-Si tienen más personajes o nombres, reemplacen A y B.
+### Ficha visual (ya está incluida en todos los prompts)
+
+| | Enmascarado A | Enmascarado B |
+|---|---|---|
+| Ropa | Capa roja oscura con capucha | Gabardina negra larga y sombrero de ala ancha |
+| Máscara | Porcelana blanca, lisa, con un pequeño signo de interrogación negro en la frente | Negra mate con líneas doradas geométricas y ojos color ámbar brillante |
+| Detalle | Guantes negros | Silueta alta y elegante |
+
+Los colores son distintos para que siempre se sepa quién es quién: A es rojo y blanco, B es negro y dorado. Si sus personajes ya tienen otro diseño, cambien esa descripción en todos los prompts. Si su generador acepta imágenes de referencia, suban la primera imagen buena de cada uno: así no cambian entre una escena y otra.
+
+Como las máscaras no tienen gestos, en los prompts la emoción se muestra con el cuerpo: cabeza inclinada, brazos arriba, etc.
 
 ### Bloque de estilo (péguenlo al final de **cada** prompt)
 
 Así todas las imágenes se ven de la misma serie:
 
 ```
-vertical 9:16 composition, warm cinematic lighting, colorful semi-realistic 3D cartoon illustration, soft depth of field, rich textures, Chilean setting, no text, no watermark
+vertical 9:16 composition, warm cinematic lighting with a subtle air of mystery, light fog, colorful semi-realistic 3D cartoon illustration, soft depth of field, rich textures, Chilean setting, no text, no watermark
 ```
-
-### Bloque de personaje (cuando aparece un personaje)
-
-Escriban **una sola vez** la descripción fija de cada personaje y úsenla igual siempre. Ejemplo para rellenar:
-
-```
-[PERSONAJE A] = a young man with curly black hair, round glasses, red scarf, denim jacket
-[PERSONAJE B] = a woman in her 40s with a gray braid, green apron, friendly smile
-```
-
-En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos por su descripción. Si su generador acepta imágenes de referencia, súbanlas también: así el personaje no cambia de cara.
 
 > Los prompts están en inglés porque la mayoría de los generadores (Midjourney, DALL·E, Ideogram, Leonardo, Flux) dan mejores resultados así.
+
+### Frase de cierre (opcional)
+
+Para darle sello de misterio a la serie, B puede terminar cada Short con la misma frase, después de la pregunta final:
+
+> **B:** Caso resuelto.
 
 ### Edición recomendada
 
@@ -51,14 +56,14 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] holding a glass of piscola, looking surprised at a single grape in his other hand, bar background` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) holding a glass of piscola, tilting the head curiously at a single grape in his other hand, bar background` |
 | 2 | 4–10 s | `Elqui Valley in northern Chile, green vineyards between dry brown mountains, intense blue sky, sunny morning` |
-| 3 | 10–16 s | `close-up of ripe golden muscat grape bunches on the vine, morning dew, [PERSONAJE B] picking them with scissors` |
+| 3 | 10–16 s | `close-up of ripe golden muscat grape bunches on the vine, morning dew, mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) picking them with scissors` |
 | 4 | 16–23 s | `large stainless steel fermentation tanks in a Chilean winery, bubbling grape juice, warm light` |
 | 5 | 23–31 s | `shiny copper alembic still with steam, clear liquid dripping into a glass container, rustic distillery` |
 | 6 | 31–38 s | `rows of old wooden barrels in a dim cellar, beam of light, dust particles floating` |
 | 7 | 38–45 s | `bottling line filling clear pisco bottles, labels without text, factory setting` |
-| 8 | 45–50 s | `[PERSONAJE A] and [PERSONAJE B] toasting with pisco sour glasses, Elqui Valley sunset behind them` |
+| 8 | 45–50 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) toasting with pisco sour glasses, Elqui Valley sunset behind them` |
 
 ### Narración en off
 
@@ -90,14 +95,14 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] as a detective with a magnifying glass, examining a dark grape leaf, vineyard background` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) as a detective with a magnifying glass, examining a dark grape leaf, vineyard background` |
 | 2 | 4–11 s | `19th century French vineyard in Bordeaux, dead brown vines, sad winemakers, vintage atmosphere` |
 | 3 | 11–17 s | `old ship sailing across the ocean carrying grapevine cuttings in wooden crates, 1800s` |
 | 4 | 17–25 s | `Chilean vineyard in Colchagua valley, two types of vines mixed together, autumn red leaves on some plants` |
 | 5 | 25–32 s | `French scientist in the 1990s kneeling in a Chilean vineyard, studying a leaf closely, papers in hand` |
 | 6 | 32–39 s | `hand harvest of deep purple carménère grapes in late autumn, baskets full, Andes mountains in background` |
 | 7 | 39–46 s | `oak barrels in an underground cellar, a glass of dark red wine on top of a barrel` |
-| 8 | 46–52 s | `[PERSONAJE A] and [PERSONAJE B] raising glasses of red wine in a vineyard at golden hour` |
+| 8 | 46–52 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) raising glasses of red wine in a vineyard at golden hour` |
 
 ### Narración en off
 
@@ -129,14 +134,14 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] confused, holding a tall glass of mote con huesillo with a spoon and a straw, hot summer day, street cart` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) tilting the head in confusion, holding a tall glass of mote con huesillo with a spoon and a straw, hot summer day, street cart` |
 | 2 | 4–11 s | `fresh peaches laid out on wooden racks drying under strong sun, Chilean countryside` |
 | 3 | 11–17 s | `close-up of wrinkled dried peaches (huesillos) in a wicker basket, warm sunlight` |
 | 4 | 17–25 s | `wheat grains being boiled in a large pot, steam rising, rustic kitchen` |
-| 5 | 25–32 s | `[PERSONAJE B] washing peeled wheat grains (mote) in a wooden bowl with clear water` |
+| 5 | 25–32 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) washing peeled wheat grains (mote) in a wooden bowl with clear water` |
 | 6 | 32–40 s | `pot with dried peaches simmering in amber syrup with cinnamon sticks and chancaca, steam` |
 | 7 | 40–46 s | `tall glasses filled with mote, a peach and golden juice, ice cubes, condensation, Chilean summer` |
-| 8 | 46–50 s | `[PERSONAJE A] and [PERSONAJE B] drinking mote con huesillo in a park under a tree, summer` |
+| 8 | 46–50 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) each holding a glass of mote con huesillo in a park under a tree, summer` |
 
 ### Narración en off
 
@@ -168,13 +173,13 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] in a raincoat in southern Chile, holding a huge red apple, rainy green forest` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) in a raincoat in southern Chile, holding a huge red apple, rainy green forest` |
 | 2 | 4–10 s | `apple orchard in southern Chile, autumn, apples falling, wooden farmhouse, misty hills` |
-| 3 | 10–17 s | `[PERSONAJE B] pouring apples into a traditional wooden apple grinder, rural barn` |
+| 3 | 10–17 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) pouring apples into a traditional wooden apple grinder, rural barn` |
 | 4 | 17–25 s | `rustic wooden apple press squeezing crushed apples, golden juice flowing into a bucket` |
 | 5 | 25–33 s | `wooden barrels in a dark rural cellar, foam bubbling at the top opening, fermentation` |
 | 6 | 33–40 s | `two glass jugs side by side: one light golden sweet cider, one darker stronger cider, wooden table` |
-| 7 | 40–48 s | `[PERSONAJE A] and [PERSONAJE B] sharing chicha in clay cups next to a wood stove, rain outside the window` |
+| 7 | 40–48 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) sharing chicha in clay cups next to a wood stove, rain outside the window` |
 
 ### Narración en off
 
@@ -204,13 +209,13 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] holding a glass of creamy coffee drink, looking at a cartoon monkey tail with suspicion, Christmas decorations` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) holding a glass of creamy coffee drink, looking at a cartoon monkey tail with suspicious body language, Christmas decorations` |
 | 2 | 4–12 s | `early 1900s Santiago de Chile party scene, elegant men in suits, vintage sepia tones with warm colors` |
 | 3 | 12–19 s | `vintage revolver on a wooden table next to a top hat, 1900s, dramatic lighting` |
 | 4 | 19–27 s | `pot of milk heating on a stove with cinnamon sticks, cloves, vanilla pod and orange peel floating` |
-| 5 | 27–34 s | `[PERSONAJE B] pouring dark coffee into the spiced milk, steam, cozy kitchen at night` |
+| 5 | 27–34 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) pouring dark coffee into the spiced milk, steam, cozy kitchen at night` |
 | 6 | 34–41 s | `glass bottles filled with cola de mono cooling in a fridge, Christmas lights reflection` |
-| 7 | 41–50 s | `[PERSONAJE A] and [PERSONAJE B] toasting cola de mono at a Chilean Christmas table with pan de pascua` |
+| 7 | 41–50 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) toasting cola de mono at a Chilean Christmas table with pan de pascua` |
 
 ### Narración en off
 
@@ -240,13 +245,13 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] dressed as a time traveler next to an ancient twisted grapevine, dusty countryside` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) dressed as a time traveler next to an ancient twisted grapevine, dusty countryside` |
 | 2 | 4–11 s | `16th century Spanish missionaries planting grapevines in Chilean valley, historical illustration style` |
 | 3 | 11–18 s | `very old, thick and twisted grapevines without trellis on dry hills of Maule, Chile, summer` |
-| 4 | 18–25 s | `[PERSONAJE B] and farmers stomping grapes in a traditional wooden trough (lagar), rustic barn` |
+| 4 | 18–25 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) and farmers stomping grapes in a traditional wooden trough (lagar), rustic barn` |
 | 5 | 25–33 s | `large old wooden barrels called pipas made of raulí wood in a rural Chilean cellar` |
 | 6 | 33–40 s | `a jug of cloudy, light red young wine being poured into a simple glass, wooden table, countryside` |
-| 7 | 40–50 s | `[PERSONAJE A] and [PERSONAJE B] at a rural fonda drinking pipeño, cueca dancers blurred in background` |
+| 7 | 40–50 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) at a rural fonda holding glasses of pipeño, cueca dancers blurred in background` |
 
 ### Narración en off
 
@@ -276,14 +281,14 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] confused, holding a pine cone in one hand and a baked empanada in the other, Chilean kitchen` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) tilting the head in confusion, holding a pine cone in one hand and a baked empanada in the other, Chilean kitchen` |
 | 2 | 4–11 s | `frying pan with chopped beef and lots of diced onions cooking, red paprika and cumin, steam` |
 | 3 | 11–17 s | `bowl of empanada filling (pino) resting overnight in a fridge, covered, cozy night kitchen` |
-| 4 | 17–24 s | `[PERSONAJE B] kneading dough on a floured wooden table, flour in the air, warm light` |
+| 4 | 17–24 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) kneading dough on a floured wooden table, flour in the air, warm light` |
 | 5 | 24–32 s | `round dough circles with filling, a black olive, a raisin and a slice of hard-boiled egg on top of each` |
 | 6 | 32–39 s | `hands folding empanadas and making the decorative twisted edge (repulgue), close-up` |
 | 7 | 39–47 s | `golden empanadas coming out of a traditional clay oven, glowing embers, Chilean flags in background` |
-| 8 | 47–55 s | `[PERSONAJE A] and [PERSONAJE B] eating empanadas at a Fiestas Patrias fonda, garlands, festive atmosphere` |
+| 8 | 47–55 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) holding empanadas at a Fiestas Patrias fonda, garlands, festive atmosphere` |
 
 ### Narración en off
 
@@ -315,14 +320,14 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] buried under a mountain of marraqueta bread, only his head visible, happy face` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) buried under a mountain of marraqueta bread, only the masked head visible, arms raised in joy` |
 | 2 | 4–11 s | `Chilean neighborhood bakery at 5 am, lights on, baker working, empty street outside, blue dawn` |
 | 3 | 11–17 s | `big industrial mixer kneading white dough with flour, water, yeast and salt, bakery` |
-| 4 | 17–24 s | `[PERSONAJE B] cutting dough into small pieces and joining them in pairs on a floured table` |
+| 4 | 17–24 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) cutting dough into small pieces and joining them in pairs on a floured table` |
 | 5 | 24–31 s | `raw marraquetas on trays with the characteristic central cut, rising, covered with cloth` |
 | 6 | 31–39 s | `marraquetas entering a hot bakery oven with steam, orange glow` |
 | 7 | 39–46 s | `golden crusty marraquetas cooling in wicker baskets, crumbs, close-up showing the crisp crust` |
-| 8 | 46–52 s | `[PERSONAJE A] and [PERSONAJE B] at breakfast, marraqueta with avocado (palta), tea cups, morning light` |
+| 8 | 46–52 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) at breakfast, marraqueta with avocado (palta), tea cups, morning light` |
 
 ### Narración en off
 
@@ -354,13 +359,13 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] looking through the small holes of a giant hallulla bread like a telescope, bakery` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) looking through the small holes of a giant hallulla bread like a telescope, bakery` |
 | 2 | 4–11 s | `dough with flour, lard, salt and yeast being mixed in a large bowl, bakery counter` |
-| 3 | 11–18 s | `[PERSONAJE B] passing a sheet of dough through a metal dough sheeter machine repeatedly, bakery` |
+| 3 | 11–18 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) passing a sheet of dough through a metal dough sheeter machine repeatedly, bakery` |
 | 4 | 18–25 s | `smooth flat dough sheet being cut into perfect circles with a round metal cutter` |
 | 5 | 25–32 s | `hands pricking round flat dough with a fork, making a pattern of small holes, close-up` |
 | 6 | 32–40 s | `trays of flat round hallullas baking in an oven, slightly golden, warm glow` |
-| 7 | 40–48 s | `[PERSONAJE A] and [PERSONAJE B] at tea time (once), hallullas with cheese and ham, teapot, cozy table` |
+| 7 | 40–48 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) at tea time (once), hallullas with cheese and ham, teapot, cozy table` |
 
 ### Narración en off
 
@@ -390,14 +395,14 @@ En los prompts aparecen como `[PERSONAJE A]` y `[PERSONAJE B]`. Reemplácenlos p
 
 | # | Tiempo | Prompt |
 |---|---|---|
-| 1 | 0–4 s | `[PERSONAJE A] holding a bright orange sopaipilla next to a pumpkin, both the same color, rainy window behind` |
+| 1 | 0–4 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) holding a bright orange sopaipilla next to a pumpkin, both the same color, rainy window behind` |
 | 2 | 4–10 s | `orange pumpkin (zapallo camote) cut in pieces boiling in a pot, steam, rustic kitchen` |
-| 3 | 10–17 s | `[PERSONAJE B] mashing cooked pumpkin into a smooth orange purée in a bowl` |
+| 3 | 10–17 s | `mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) mashing cooked pumpkin into a smooth orange purée in a bowl` |
 | 4 | 17–24 s | `orange dough made from pumpkin purée, flour and melted lard on a wooden table` |
 | 5 | 24–31 s | `dough rolled thin and cut into circles with a glass, each circle pricked with a fork` |
 | 6 | 31–38 s | `orange dough circles frying in hot oil, puffing up, golden bubbles, close-up` |
 | 7 | 38–44 s | `sopaipillas soaking in dark brown chancaca syrup with orange peel and cinnamon, steaming bowl` |
-| 8 | 44–50 s | `[PERSONAJE A] and [PERSONAJE B] eating sopaipillas by the window on a rainy day in Santiago, cozy` |
+| 8 | 44–50 s | `mysterious masked figure A (dark red hooded cloak, smooth white porcelain full-face mask with a small black question mark on the forehead, black gloves) and mysterious masked figure B (long black trench coat, wide-brimmed black hat, matte black full-face mask with thin golden geometric lines, glowing amber eye slits) holding sopaipillas by the window on a rainy day in Santiago, cozy` |
 
 ### Narración en off
 
