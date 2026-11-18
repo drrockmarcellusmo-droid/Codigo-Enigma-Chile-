@@ -1,0 +1,15 @@
+CAPÍTULO 1 · PISCO
+Tiempos de cada imagen en el video (min:seg)
+
+Imagen 01: 0:00.0 – 0:03.9
+Imagen 02: 0:03.9 – 0:10.3
+Imagen 03: 0:10.3 – 0:15.6
+Imagen 04: 0:15.6 – 0:21.3
+Imagen 05: 0:21.3 – 0:26.3
+Imagen 06: 0:26.3 – 0:31.6
+Imagen 07: 0:31.6 – 0:37.3
+Imagen 08: 0:37.3 – 0:43.3
+Imagen 09: 0:43.3 – 0:48.6
+Imagen 10: 0:48.6 – 0:57.2
+
+Duración total: 57.2 s
