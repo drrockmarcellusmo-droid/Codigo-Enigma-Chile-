@@ -1,0 +1,15 @@
+CAPÍTULO 3 · MOTE CON HUESILLO
+Tiempos de cada imagen en el video (min:seg)
+
+Imagen 01: 0:00.0 – 0:03.6
+Imagen 02: 0:03.6 – 0:06.9
+Imagen 03: 0:06.9 – 0:09.9
+Imagen 04: 0:09.9 – 0:13.8
+Imagen 05: 0:13.8 – 0:18.1
+Imagen 06: 0:18.1 – 0:23.1
+Imagen 07: 0:23.1 – 0:26.1
+Imagen 08: 0:26.1 – 0:32.8
+Imagen 09: 0:32.8 – 0:37.4
+Imagen 10: 0:37.4 – 0:44.9
+
+Duración total: 44.9 s
