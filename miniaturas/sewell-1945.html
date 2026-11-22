@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1280px;height:720px;overflow:hidden;background:#0b0806;font-family:"Inter Display","Inter",sans-serif}
+.bg{position:absolute;inset:0;background:radial-gradient(ellipse at 72% 70%,#3a1d0c 0%,#150b06 45%,#050403 100%)}
+/* mine portal */
+.portal{position:absolute;left:690px;top:250px;width:440px;height:470px}
+.hole{position:absolute;left:60px;top:60px;width:320px;height:410px;border-radius:160px 160px 0 0;
+ background:radial-gradient(ellipse at 50% 78%,#ff7a1a 0%,#c23a08 14%,#3a0e03 38%,#000 62%)}
+.beam{position:absolute;background:linear-gradient(90deg,#3b2414,#6b4426 50%,#2e1c10);box-shadow:0 0 12px #000}
+.b1{left:30px;top:70px;width:46px;height:400px}
+.b2{right:30px;top:70px;width:46px;height:400px}
+.b3{left:10px;top:30px;width:420px;height:52px;background:linear-gradient(180deg,#6b4426,#3b2414)}
+.rails{position:absolute;left:150px;top:420px;width:140px;height:50px;
+ background:linear-gradient(75deg,transparent 46%,#8a7a6a 47%,#8a7a6a 50%,transparent 51%),linear-gradient(105deg,transparent 49%,#8a7a6a 50%,#8a7a6a 53%,transparent 54%)}
+/* smoke */
+.smoke{position:absolute;border-radius:50%;filter:blur(38px);background:#8d8a86}
+.fire{position:absolute;left:800px;top:500px;width:240px;height:160px;border-radius:50%;background:#ff5a00;filter:blur(55px);opacity:.75}
+/* text */
+.num{position:absolute;left:52px;top:40px;font-weight:900;font-size:330px;line-height:1;letter-spacing:-12px;color:#ffd21a;
+ -webkit-text-stroke:6px #000;text-shadow:0 0 40px rgba(255,120,0,.55),8px 10px 0 #000}
+.sub{position:absolute;left:62px;top:388px;font-weight:900;font-size:98px;line-height:.95;color:#fff;letter-spacing:-2px;
+ -webkit-text-stroke:3px #000;text-shadow:6px 7px 0 #000}
+.tag{position:absolute;z-index:5;left:64px;top:598px;background:#d01616;color:#fff;font-weight:800;font-size:44px;padding:8px 22px;letter-spacing:2px;transform:rotate(-2deg);box-shadow:6px 6px 0 #000}
+.brand{position:absolute;right:26px;top:22px;color:#e8e0d0;font-weight:700;font-size:22px;letter-spacing:4px;opacity:.85}
+.vig{position:absolute;inset:0;box-shadow:inset 0 0 160px 30px #000}
+</style></head><body>
+<div class="bg"></div>
+<div class="portal"><div class="hole"></div><div class="beam b1"></div><div class="beam b2"></div><div class="beam b3"></div></div>
+<div class="fire"></div>
+<div id="smoke"></div>
+<div class="vig"></div>
+<div class="num">355</div>
+<div class="sub">NO VOLVIERON</div>
+<div class="tag">SEWELL · 1945</div>
+<div class="brand">CÓDIGO ENIGMA CHILE</div>
+<script>
+// humo saliendo del túnel y subiendo hacia arriba a la derecha
+const s=document.getElementById('smoke');let seed=7;const r=()=>{seed=(seed*16807)%2147483647;return seed/2147483647};
+for(let i=0;i<34;i++){const t=i/34;const d=document.createElement('div');d.className='smoke';
+ const size=90+t*240+r()*70;const x=910-size/2+(r()-.5)*(80+t*520)-t*60;const y=330-t*420+(r()-.5)*50;
+ Object.assign(d.style,{left:x+'px',top:y+'px',width:size+'px',height:size*.7+'px',opacity:(0.14+r()*0.16).toFixed(2),background:t<.3?'#4a423c':'#7d7873'});s.appendChild(d)}
+</script></body></html>
