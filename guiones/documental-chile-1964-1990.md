@@ -1,7 +1,7 @@
 # CÓDIGO ENIGMA CHILE
 ## Documental: «CHILE DIVIDIDO: Allende, Pinochet y la historia que nadie te contó completa»
 
-**Duración estimada:** 60 minutos (≈ 8.500 palabras de narración a ritmo documental, 140–150 palabras/minuto)
+**Duración estimada:** 60 minutos (≈ 45–50 min de narración en off a 130–140 palabras/minuto, más pausas, archivo, citas en pantalla y música)
 **Formato:** Narrador en off + material de archivo + gráficos + citas en pantalla
 **Principio editorial:** Cada bloque presenta los hechos documentados y, por separado, cómo los interpreta la izquierda y cómo los interpreta la derecha. El narrador no toma partido; distingue entre **hecho comprobado**, **dato discutido** e **interpretación**.
 
